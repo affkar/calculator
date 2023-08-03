@@ -15,7 +15,7 @@ pnpm dev
 build a zip:
 
 ```bash
-npm run clean && npm run build&& npm run zip
+npm run build
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
