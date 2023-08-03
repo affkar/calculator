@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run ci && next build && npm run export && npm run zip",
-    "ci": "rimraf out out.zip",
+    "build": "next build && npm run export && npm run zip",
+    "ci": "npm install && rimraf out out.zip",
     "export": "next export",
     "zip": "node createZip.js",
     "start": "next start",
